@@ -1,0 +1,43 @@
+# Core Framework
+streamlit==1.42.2
+
+# LangChain / LangGraph 
+langchain==0.2.17
+langchain-openai==0.1.25
+langchain-community==0.2.19
+langchain-core==0.2.43
+langchain-text-splitters==0.2.4
+langgraph==0.2.73
+
+# OpenAI 
+openai==1.57.0
+
+# Vector Store
+faiss-cpu==1.8.0
+
+# Tokenisation 
+tiktoken==0.8.0
+
+# Document Parsing 
+pypdf==4.3.1
+python-docx==1.1.2
+
+# Web Search 
+tavily-python==0.3.9
+requests==2.32.3
+
+# Data & Analytics
+pandas==2.2.3
+
+# Environment & Config 
+python-dotenv==1.0.1
+
+# Retry Logic 
+tenacity>=8.2.0
+
+# Templating
+jinja2>=3.1.0
+
+# Multi-Model Support
+langchain-google-genai==1.0.10
+langchain-groq==0.1.9

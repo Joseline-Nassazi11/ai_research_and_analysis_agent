@@ -1,0 +1,43 @@
+# ─── Environment & Secrets ────────────────────────────────────
+.env
+*.key
+
+# ─── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ─── Database & Index (auto-created) ──────────────────────────
+db/analyst.db
+db/faiss_index/
+db/vector_store.pkl
+
+# ─── User Data (auto-created) ─────────────────────────────────
+uploads/
+reports/
+
+# ─── OS Files ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── VS Code ──────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ─── Streamlit ────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ─── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Temp Files ───────────────────────────────────────────────
+*.tmp                
+*.pkl.tmp
